@@ -1,0 +1,20 @@
+#sigContainer {
+	width: 320px;
+}
+#sigContainer > canvas#signature {
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
+#sigContainer > canvas#signature:hover {
+	cursor: crosshair;
+}
+#sigContainer > a#saveSignature, #sigContainer > a#clearSignature {
+	border: 2px solid grey;
+    background-color: #cccccc;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial;
+    color: #fff;
+}
